@@ -1,0 +1,13 @@
+{
+  "name": "jest-ava",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "."
+    ],
+    "nohoist": [
+      "**/run-node"
+    ]
+  }
+}
